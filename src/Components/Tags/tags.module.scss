@@ -1,0 +1,23 @@
+.tagsWrapper {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  color: #ccc;
+}
+
+.types {
+  flex-direction: row;
+  font-size: 14px;
+  & > span {
+    color: #1ea9ff;
+    cursor: pointer;
+  }
+}
+
+.tag {
+  color: #1ea9ff;
+  margin-right: 5px;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+}

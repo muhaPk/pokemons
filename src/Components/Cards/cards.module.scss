@@ -1,0 +1,22 @@
+.cardWrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 1220px;
+  flex-wrap: wrap;
+}
+
+.tagsWrapper {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  color: #ccc;
+}
+.tag {
+  color: #1ea9ff;
+  margin-right: 5px;
+}
+
+.reset {
+  color: #1ea9ff;
+  margin-left: 15px;
+  cursor: pointer;
+}

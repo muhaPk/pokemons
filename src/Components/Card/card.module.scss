@@ -1,0 +1,53 @@
+.card {
+  cursor: pointer;
+}
+
+.cardLink {
+  text-decoration: none;
+}
+
+.item {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #3e3e3e;
+  color: #ccc;
+  padding: 10px;
+  font-size: 14px;
+  & > img {
+    margin-bottom: 20px;
+  }
+  &:hover {
+    background-color: #3a3a3a;
+  }
+}
+
+.itemData {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ccc;
+  margin: 5px 0;
+  text-decoration: none;
+  max-width: 122px;
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.Cards {
+  font-size: 14px;
+}
+
+.types {
+  flex-direction: row;
+  font-size: 14px;
+  & > span {
+    color: #1ea9ff;
+  }
+}
+
+.info {
+  background-color: #ccc;
+}
